@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-color: rgb(40, 40, 40);
+    color: #f1f1f1;
+    font: normal 20pt Arial;
+  
+  }
+  h1{
+    color: #ff3700;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 2%;
+    height: 300px;
+    width: 100%;
+  }
+  input {
+    border: 1px solid #33333333;
+    height: 40px;
+    width: 300px;
+    display: block;
+    padding: 0.5%;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  .btnPosi{
+    display: flex;
+  }
+
+  button{
+    border: 1px solid #33333333;
+    height: 40px;
+    width: 100px;
+    display: block;
+    padding: 0.5%;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: rgb(255, 255, 255);
+
+  }
+  
+  /* 
+  
+  
+  .sum {
+    color: green;
+    border: 1px solid #33333333;
+  }
+  .sum:hover {
+    background-color: green;
+    color: white;
+  }
+  .sub {
+    color: blue;
+    border: 1px solid #33333333;
+  }
+  .sub:hover {
+    background-color: blue;
+    color: white;
+  }
+  .div {
+    color: yellowgreen;
+    border: 1px solid #33333333;
+  }
+  .div:hover {
+    background-color: yellowgreen;
+    color: white;
+  }
+  .mult {
+    color: red;
+    border: 1px solid #33333333;
+  }
+  .mult:hover {
+    background-color: red;
+    color: white;
+  }
+   */
